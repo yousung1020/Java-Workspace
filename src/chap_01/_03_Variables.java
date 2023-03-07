@@ -25,7 +25,5 @@ public class _03_Variables {
         long l = 1000000000000l; // -21억 ~ 21억 까지는 int 형, 그 이상 초과하면 long 형
         l = 1_000_000_000_000l;
         System.out.println((l));
-        
-        // 1:11:31 (주석) 부터 시청
     }
 }
