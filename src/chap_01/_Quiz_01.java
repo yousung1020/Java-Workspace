@@ -9,6 +9,5 @@ public class _Quiz_01 {
         System.out.println("약 " + minute + "분 후 도착");
         System.out.println("남은 거리 " + distance + "km");
 
-        // 2:01:30 (산술 연산자 (전반전) 부터)
     }
 }
