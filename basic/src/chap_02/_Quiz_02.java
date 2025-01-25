@@ -7,8 +7,12 @@ public class _Quiz_02 {
         // 조건2: 삼항 연산자 이용
         // 실행결과: 키가 115cm 이므로, 탑승하실 수 없습니다, 키가 135cm 이므로, 탑승하실 수 있습니다.
 
+//        int tallOfKid = 120;
+//        String s = (tallOfKid >= 120) ? "키가 " + tallOfKid + "이므로 탑승하실 수 있습니다." : "키가 " + tallOfKid + "이므로 탑승하실 수 없습니다.";
+//        System.out.println(s);
+
         int tallOfKid = 120;
-        String s = (tallOfKid >= 120) ? "키가 " + tallOfKid + "이므로 탑승하실 수 있습니다." : "키가 " + tallOfKid + "이므로 탑승하실 수 없습니다.";
-        System.out.println(s);
+        String a = (tallOfKid >= 120) ? "키가 " + tallOfKid + "이므로 탑승하실 수 있습니다." : "키가" + tallOfKid + "이므로 탑승하실 수 없습니다.";
+        System.out.println(a);
     }
 }
