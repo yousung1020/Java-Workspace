@@ -8,14 +8,13 @@ public class _07_TypeCasting {
         System.out.println(score); // 93
         System.out.println((float) score); // 93.0
         System.out.println((double) score);
-
         float score_f = 93.0f;
         double score_d = 98.8;
         System.out.println((int) score_f);
         System.out.println((int) score_d);
 
         // 정수 + 실수 연산
-        score = 93 + (int) 98.8;
+//        score = 93 + (int) 98.8;
         System.out.println(score); // 93 + 98
 
         score_d = 93 + 98.8; // 93.0 + 98.8

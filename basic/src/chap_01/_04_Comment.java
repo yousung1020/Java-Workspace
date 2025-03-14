@@ -8,7 +8,13 @@ public class _04_Comment {
 
         int size = 120;
         size = size + 10; // 10만큼 더 큰 신발을 구매
+        size += 10;
+        size -= 10;
+        size *= 10;
+        size /= 10;
+        size %= 10;
         System.out.println("신발 사이즈 " + size + "으로 보여주세요.");
+
 
 /*
         int a = 10;
