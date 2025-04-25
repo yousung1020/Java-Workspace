@@ -1,7 +1,7 @@
-package today;
+package baekjoon;
 
-public class _1 {
+public class _2131 {
     public static void main(String[] args) {
-
+        
     }
 }
